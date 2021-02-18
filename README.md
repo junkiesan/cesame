@@ -1,11 +1,8 @@
-# Project Title
+# Cesame
 
-One Paragraph of project description goes here
+Main website of Cesame french digital agency.
 
-This initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), but as
-I can no longer open that page as there are too many comments, I have
-moved it here.
+This a simple blog-aware static site with a purpose to help small businesses.
 
 ## Summary
 
@@ -24,23 +21,7 @@ for notes on how to deploy the project on a live system.
 
 What things you need to install the software and how to install them
 
-    Give examples
-
-### Installing
-
-A step by step series of examples that tell you how to get a development
-env running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
+    gem install bundler jekyll
 
 ## Deployment
 
@@ -48,13 +29,12 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+  - [Jekyll](https://jekyllrb.com/) - Used
+    as a framework for the blog system
+  - [Sass](https://sass-lang.com/) - Used as a front-end preprocessor
+  - [Netlify](https://www.netlify.com/) - Used to push the project on production
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code was used
-  - Inspiration
-  - etc
+  - Thanks to Hugo Bresler & Charles Bouland
+  - Undraw for the images
