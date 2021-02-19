@@ -1,0 +1,11 @@
+- title: Césame
+  docs:
+  - home
+  - themes
+  - customization
+
+- title: A propos
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap
