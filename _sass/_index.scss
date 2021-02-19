@@ -1,8 +1,22 @@
 h1 {
-  color: pink !important;
+  color: pink;
 }
 
 p {
   height: 30px;
-  color: pink !important;
+  color: pink;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+.cool {
+  display: flex;
+  justify-content: center;
+  color: red;
 }

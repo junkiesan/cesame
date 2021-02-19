@@ -258,6 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-coffeescript
   jekyll-feed (~> 0.12)
   jekyll-redirect-from
   jekyll-seo-tag

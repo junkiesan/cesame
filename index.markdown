@@ -6,4 +6,4 @@ layout: home
 title: Césame vous ouvre les portes du digital 
 ---
 
-Hello im so cool
+<p class="cool">Hello im so cool</p>

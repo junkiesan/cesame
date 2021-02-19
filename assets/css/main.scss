@@ -1,4 +1,9 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+
 ---
-@import "_index.scss";
+@import "index";
+.cool {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
