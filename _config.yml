@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  junkiesan
 
 # Build settings
-#theme: minima
+# theme:
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -39,6 +39,7 @@ plugins:
   - jekyll-coffeescript
 
 sass:
+  sass_dir: assets/css
   style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -261,6 +261,7 @@ DEPENDENCIES
   jekyll-coffeescript
   jekyll-feed (~> 0.12)
   jekyll-redirect-from
+  jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo (~> 1.2)
