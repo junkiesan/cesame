@@ -1,0 +1,26 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+---
+
+// Colors
+$primary: #E5261F;
+$secondary: #f88379;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #fff6f8;
+$steel: #5C5A5A;
+
+// Links
+
+// Components
+@import '_sass/index';
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+
+}
+
+p {
+  color : white;
+}
