@@ -17,6 +17,7 @@ body {
   line-height: 1.3;
   min-height: 100%;
   overflow-x: hidden;
+  background-color: $lightYellow;
 
   @include breakpoint-up(large){
     font-size: $font-med;
@@ -136,7 +137,7 @@ button, .button {
   position: relative;
   display: inline-block;
   padding: 0.875rem 2.1875rem;
-  background-color: $strongYellow ;
+  background-color: $strongYellow;
   border: 0;
   border-radius: 50px;
   cursor: pointer;

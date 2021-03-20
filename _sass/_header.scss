@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  z-index: 1;
+
+  nav {
+    position: relative;
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+  }
+
+  &__logo {
+
+    img {
+      width: 8.8125rem;
+      height: 8.8125rem;
+    }
+
+  }
+}
