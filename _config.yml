@@ -23,8 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Besoin d'une retouche sur votre site internet actuel ? Un projet web en tête ?
   Césame vous permet de lancer votre business avec une stratégie digitale sur mesure et 100% française.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cesame" # the subpath of your site, e.g. /blog
+url: "cesame.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  junkiesan
 # seo:
