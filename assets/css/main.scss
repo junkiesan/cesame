@@ -3,7 +3,6 @@
 ---
 
 // Links
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700;800&display=swap');
 
 // Components
 @import '_sass/variables';
@@ -11,8 +10,10 @@
 @import '_sass/globals';
 @import '_sass/header';
 @import '_sass/hero';
-        // '_sass/mixins',
-        // '_sass/globals',
+// '_sass/mixins',
+// '_sass/globals',
         // '_sass/index',
         // '_sass/header',
         // '_sass/hero';
+        
+        @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700;800&display=swap');
