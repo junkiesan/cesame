@@ -47,7 +47,7 @@ plugins:
   - jekyll-environment-variables
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets
   # indentWidth: 4
   style: compressed # possible values: nested expanded compact compressed
   # precision: 10
