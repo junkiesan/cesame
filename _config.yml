@@ -37,7 +37,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   meta_twitter_site: "@zerostaticio"
 #   meta_twitter_creator: "@zerostaticio"
 # Build settings
-# theme: Minimal
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -45,6 +45,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-environment-variables
+  - jekyll-include-cache
 
 sass:
   sass_dir: assets/css/main
