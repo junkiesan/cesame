@@ -45,7 +45,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-environment-variables
-  - jekyll-include-cache
 
 sass:
   sass_dir: assets/css/main
