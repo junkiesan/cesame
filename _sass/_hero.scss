@@ -79,6 +79,10 @@
   &__text {
     text-align: center;
 
+    h1 {
+      font-weight: bold;
+    }
+    
     @include breakpoint-up(large){
       flex: 2;
       order: 1;

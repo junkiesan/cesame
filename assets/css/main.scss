@@ -1,15 +1,15 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
-@import '_sass/variables';
-@import '_sass/mixins';
-@import '_sass/globals';
-@import '_sass/header';
-@import '_sass/hero';
-// '_sass/mixins',
-// '_sass/globals',
-        // '_sass/index',
-        // '_sass/header',
-        // '_sass/hero';
+// @import '_sass/mixins';
+// @import '_sass/globals';
+// @import '_sass/header';
+// @import '_sass/hero';
+@import '_sass/variables',
+        '_sass/mixins',
+        '_sass/globals',
+        '_sass/header',
+        '_sass/hero',
+        '_sass/feature';
         
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700;800&display=swap');
