@@ -1,8 +1,13 @@
 .contact {
-    max-width: 1170px;
+  max-width: 69.375rem;
+  margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+
+  p {
+    margin-bottom: 0px;
+  }
 
   h2{
     position: relative;
@@ -12,14 +17,14 @@
 
   h2:after{
     content: '';
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      transform: translateX(-50%);
-      height: 4px;
-      width: 50px;
-      border-radius: 2px;
-      background-color: #2ecc71;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: $strongYellow;
   }
 
   textarea{
@@ -71,14 +76,14 @@
     height: 100%;
     left: 0;
     top: 0;
-    background-image: url('assets/img/contact.jpg') no-repeat center;
+    background: url('https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg') no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1;
   }
 
   &__form {
-    max-width: 850px;
+    max-width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -86,23 +91,17 @@
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    border-radius: 5px;
   }
 
   &__left {
-    background: url('assets/img/contact.jpg') no-repeat center;
+    background: url('https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg') no-repeat center;
     background-size: cover;
+    border-radius: 5px;
     height: 100%;
   }
+
   &__right {
     padding: 25px 40px;
-  }
-
-  &__input_row{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  &__input_group{
-    flex-basis: 45%;
   }
 }
