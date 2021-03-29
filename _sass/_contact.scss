@@ -1,0 +1,65 @@
+.contact {
+  
+  // h1 {
+  //   margin-bottom: 10px;
+  // }
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  label {
+    margin-bottom:6px;
+    display: block;
+    color: $darkBlue;
+    font-weight: bold;
+  }
+
+  tr td:first-child {
+    padding-right: 20px;;
+  }
+
+  tr td {
+    padding-top: 20px;
+  }
+  
+  &__form {
+    background: $strongYellow;
+    display: flex;
+  }
+
+  &__left {
+    flex-basis: 60%;
+    padding: 40px, 60px;
+  }
+  &__right {
+    flex-basis: 40%;
+    padding: 40px, 60px;
+    background: $darkBlue;
+    h3 {
+
+      color: $strongYellow;
+    }
+  }
+
+  &__input_row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__input_group{
+    flex-basis: 45%;
+  }
+}
